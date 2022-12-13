@@ -1,6 +1,10 @@
 # Duration Parser
 A simple python implementation of a duration parser.
 
+## Installation
+```shell
+pip install duration-parser
+```
 
 ## Usage
 
