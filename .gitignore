@@ -1,0 +1,17 @@
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+
+# mypy
+**/.mypy_cache/
+
+# Pytest
+**/.pytest_cache/
+
+# Jupyter Notebook
+**/.ipynb_checkpoints
+
+# Build
+build/
+coolidge.egg-info/
+dist/

@@ -1,0 +1,4 @@
+include **/py.typed **/*.pyi
+recursive-include coolidge/tools/templates **
+exclude **/*.py[cod]
+recursive-exclude **/__pycache__
