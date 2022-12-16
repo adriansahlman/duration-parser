@@ -13,5 +13,7 @@
 
 # Build
 build/
-coolidge.egg-info/
+*.egg-info/
 dist/
+
+**/.DS_Store

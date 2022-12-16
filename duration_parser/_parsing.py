@@ -37,7 +37,7 @@ VALUTE_PATTERNS = {
     in UNIT_PATTERNS.items()
 }
 
-VALIDATION_PATTERN = r'\s*(\d+(\.\d+)?\s*({})(\.|,|\s*|$)?\s*)*'.format(
+VALIDATION_PATTERN = r'^\s*(\d+(\.\d+)?\s*({})\s*(\.|,|\s*|$)?\s*)*$'.format(
     '|'.join(
         r'({})'.format(pattern)
         for pattern
